@@ -6,6 +6,10 @@ filetype off
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+" Mouse control
+set ttymouse=xterm2
+set mouse=a
+"
 " set the title in xterm
 set title
 
@@ -170,3 +174,7 @@ endfunction
 
 map <leader>t :call RunTestFile()<cr>
 map <leader>T :call RunNearestTest()<cr>
+
+" HAXES
+" I don't get pathtoget quiet yet.
+source ~/.vim/scala.vim
