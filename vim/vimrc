@@ -67,6 +67,9 @@ set nobackup
 set statusline=%F%m%r%h%w\ [f:%{&ff}\ t:%Y]\ [A:\%03.3b\ H:\%02.2B]\ [P:%04l,%04v][%p%%]\ [LEN=%L]\ %{fugitive#statusline()}
 set laststatus=2
 
+" I hate highlighting
+map ,m :nohl<CR>
+
 " NT bindings
 map <leader>n :NERDTreeToggle<CR>
 map <leader>ntm :NERDTreeMirror<CR>
