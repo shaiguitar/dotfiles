@@ -23,7 +23,7 @@ let mapleader = ","
 set history=1000
 
 " searching stuff
-set hlsearch
+"set hlsearch
 set incsearch
 
 " Make <C-L> clear highlight and redraw
@@ -44,7 +44,8 @@ syntax on
 
 " 256 colors, colorscheme
 set t_Co=256
-colorscheme xorium
+"colorscheme xorium
+colorscheme jellybeans
 set vb t_vb=
 
 filetype plugin indent on
@@ -78,7 +79,7 @@ map <leader>ntf :NERDTreeFind<CR>
 
 " Align bindings
 " map <leader>a= to :Align = (rather than :Align := )
-map <leader>a= :Align =<CR>
+"map <leader>a= :Align =<CR>
 map <leader>ah :Align =><CR>
 map <leader>= ggVG=<CR>
 map <leader>ct :set et <bar> retab<CR>
